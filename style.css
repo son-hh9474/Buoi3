@@ -3,7 +3,6 @@ p {
 }
 
 .font-title {
-    color: var(--Black, #2B2B2B);
     /* H4 - 18px */
     font-family: Inter;
     font-size: 18px;
@@ -14,7 +13,6 @@ p {
 }
 
 .font-word {
-    color: var(--Paragraph-Font, #767676);
     font-kerning: none;
     font-feature-settings: 'calt' off;
     /* Paragraph Progress - 15 */
@@ -46,24 +44,122 @@ p {
     align-items: center;
 }
 
+.side-bar-line {
+    width: 220px;
+    height: 1.5px;
+    background-color: #F0F0F6;
+    margin: 25px 0px 25px 0px;
+}
+
 .side-bar-profile {
-    width: 150px;
+    width: 150px; 
     height: 150px;
-    padding: 0px 36px 31px 34px
+    padding: 0px 36px 31px 34px ;
 }
 
 .side-bar-title {
     width: 142px;
-    height: 42px;
+    height: 22px;
     padding: 0px 41px 15px 37px;
 }
 
 .side-bar-major {
-    width: 151px;
+    width: 153px;
     height: 24px;
-    padding: 0px 35px 15px 34px;
+    padding: 0px 34px 15px 33px;
     color: #767676;
 }
+
+.side-bar-icon {
+    width: 219px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-bar-icon-item {
+    width: 24px;
+    height: 24px;
+}
+
+.side-bar-info {
+    width: 220px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    color: #2B2B2B;
+    gap: 10px;
+}
+
+.side-bar-info-container {
+    width: 220px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.side-bar-info-container-age {
+    background-color: #FFB400;
+    padding: 1px 8px 1px 5px
+}
+.side-bar-info-container-residence {
+    background-color: #FFB400;
+    padding: 0px 5px 0px 6px
+}
+.side-bar-info-container-freelance {
+    background-color: #FFB400;
+    padding: 0px 5px 0px 6px
+}
+.side-bar-info-container-address {
+    background-color: #FFB400;
+    padding: 0px 5px 0px 7px
+}
+
+.side-bar-language {
+    width: 220px;
+    height: 153px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-language-container {
+    width: 220px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #767676;
+    padding-bottom: 5px;
+}
+
+.side-bar-language-img {
+    width: 220px;
+    height: 4px;
+    padding-bottom: 9px;
+}
+
+.side-bar-skill {
+    width: 220px;
+    height: 242px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-skill-container {
+    width: 220px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    color: #767676;
+    padding-bottom: 5px;
+}
+
+.side-bar-skill-img {
+    width: 220px;
+    height: 4px;
+    padding-bottom: 10px;
+}
+
 
 
 .main-side {
