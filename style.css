@@ -160,6 +160,49 @@ p {
     padding-bottom: 10px;
 }
 
+.side-bar-extra_skill {
+    width: 186px;
+    height: 148px;
+    padding-right: 34px;
+    display: flex;
+    flex-direction: column;
+}
+
+.side-bar-extra_skill-container {
+    width: 186px;
+    height: 24px;
+    display: flex;
+    padding-bottom: 5px;
+}
+
+.side-bar-extra_skill-item {
+    text-align: left;
+    color: #767676;
+    
+}
+
+.side-bar-extra_skill-img {
+    width: 15px;
+    height: 15px;
+    padding: 4px 15px 5px 0px;
+}
+
+.side-bar-download_cv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFB400;
+    width: 220px;
+    height: 40px;
+    color:#2B2B2B;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
 
 
 .main-side {
